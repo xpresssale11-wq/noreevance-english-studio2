@@ -813,14 +813,14 @@ export default function SentenceBuilderGame({
                   <button
                     onClick={() =>
                       onSavePhrase({
-                        phrase: currentSbItem.en,
+                        sentence: currentSbItem.en,
                         rhythmGuide: currentSbItem.en,
                         tip: `${currentSbItem.th} — ${currentSbItem.tipTh}`,
                       })
                     }
                     className="px-3 py-1.5 rounded-xl bg-white text-[#C86D51] border border-[#E5DEC9] text-xs font-semibold cursor-pointer"
                   >
-                    + {lang === "th" ? "บันทึกประโยค" : "Save"}
+                    {lang === "th" ? "บันทึกประโยค" : "Save"}
                   </button>
                 )}
               </div>
