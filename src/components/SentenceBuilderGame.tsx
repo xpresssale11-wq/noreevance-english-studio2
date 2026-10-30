@@ -813,9 +813,9 @@ export default function SentenceBuilderGame({
                   <button
                     onClick={() =>
                       onSavePhrase({
-                        phrase: currentsbitem.en,
-                        rhythmGuide: currentsbitem.en,
-                        tip: `${currentsbitem.th} — ${currentsbitem.tipTh}`,
+                        phrase: currentSbItem.en,
+                        rhythmGuide: currentSbItem.en,
+                        tip: `${currentSbItem.th} — ${currentSbItem.tipTh}`,
                       })
                     }
                     className="px-3 py-1.5 rounded-xl bg-white text-[#C86D51] border border-[#E5DEC9] text-xs font-semibold cursor-pointer"
